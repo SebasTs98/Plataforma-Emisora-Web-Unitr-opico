@@ -1,0 +1,86 @@
+[7:23 p. m., 17/2/2022] SEBASTIAN TORRES: <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+[7:26 p. m., 17/2/2022] SEBASTIAN TORRES: @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+html,body{
+    background: #6665ee;
+    font-family: 'Poppins', sans-serif;
+}
+::selection{
+    color: #fff;
+    background: #6665ee;
+}
+.container{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+}
+.container .form{
+    background: #fff;
+    padding: 30px 35px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.container .form form .form-control{
+    height: 40px;
+    font-size: 15px;
+}
+.container .form form .forget-pass{
+    margin: -15px 0 15px 0;
+}
+.container .form form .forget-pass a{
+   font-size: 15px;
+}
+.container .form form .button{
+    background: #6665ee;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+.container .form form .button:hover{
+    background: #5757d1;
+}
+.container .form form .link{
+    padding: 5px 0;
+}
+.container .form form .link a{
+    color: #6665ee;
+}
+.container .login-form form p{
+    font-size: 14px;
+}
+.container .row .alert{
+    font-size: 14px;
+}
+<!-- <meta name="viewport" content="user-scalable=yes, width=device-width" /> -->
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+ <script
+     src="https://code.jquery.com/jquery-1.12.4.min.js"
+     integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+     crossorigin="anonymous">
+  </script>
+   
+  <style type="text/css">
+      @media (min-width:320px)  { 
+      /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+          body, table, p, img {
+          padding-right: 1em;
+          width: 100%;
+          }
+       }
+      @media (min-width:480px)  { 
+      /* smartphones, Android phones, landscape iPhone */ 
+      }
+      @media (min-width:600px)  { 
+      /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ 
+      }
+      @media (min-width:801px)  { 
+      /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+      }
+      @media (min-width:1025px) { 
+      /* big landscape tablets, laptops, and desktops */ 
+      }
+      @media (min-width:1281px) { 
+      /* hi-res laptops and desktops */ 
+      }
+  </style>    </head>
